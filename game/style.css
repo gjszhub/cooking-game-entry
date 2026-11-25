@@ -1,0 +1,28 @@
+/* Dapur Kilat — page chrome. The game itself is the 1280x800 canvas. */
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #160c06;
+  min-height: 100%;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: system-ui, "Segoe UI", Arial, sans-serif;
+}
+main {
+  text-align: center;
+}
+canvas {
+  display: block;
+  width: 1280px;
+  height: 800px;
+  background: #2b1a12;
+  cursor: pointer;
+}
+.foot {
+  margin: 10px 0 0;
+  color: rgba(255, 246, 224, 0.45);
+  font-size: 13px;
+}
