@@ -162,7 +162,6 @@ function drawHud(ctx, state) {
   // logo
   flame(ctx, 44, 30, 26, '#f07b1d');
   outlinedText(ctx, 'DAPUR KILAT', 64, 32, 26, '#fff6e0', 900);
-  text(ctx, 'warung cepat saji', 64, 50, 11, '#c9a06a', 600);
   // score
   text(ctx, 'SKOR', 330, 22, 11, '#c9a06a', 700);
   outlinedText(ctx, String(state.score), 330, 44, 24, COLORS.gold, 900);
